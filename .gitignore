@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+venv/
+flaskapi/venv/
+__pycache__/
+*.pyc
+
+# Environment Files
+.env
+
+# MacOS
+.DS_Store
+
+# Data & Models (Do not commit large models and datasets)
+models/
+Dataset/
+outputs/
+inputs/
+models copy/
+
+# Build folders
+frontend/dist/
+frontend/build/
